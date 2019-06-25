@@ -1,0 +1,108 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration:none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.text-primary {
+    color: #93cb52;
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #7ab436;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #333;
+}
+/* Navbar  */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    z-index: 1;
+    opacity: 0.9;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#navbar ul li a{
+    padding: 0.75rem;
+    color: #fff;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+
+/* Showcase */
+#showcase {
+    background: url('../images/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.showcase-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 64.5px; 
+    background-color: rgba(0,0,0,0.6);
+    
+}
