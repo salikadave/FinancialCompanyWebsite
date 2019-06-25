@@ -71,21 +71,36 @@ p {
     color: #fff;
     background-color: #333;
 }
+
 .bg-light {
-
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.py-1{
-    padding: 1.5rem 0;
+.bg-dark {
+    background-color: #333;
+    color: #fff;
 }
 
-.py-2{
-    padding: 2rem 0;
+.p-1 { padding: 1.5rem;}
+.p-2 { padding: 2rem;}
+.p-3 { padding: 3rem;}
+
+.py-1{ padding: 1.5rem 0;}
+.py-2{ padding: 2rem 0;}
+.py-3{ padding: 3rem 0;}
+
+.list {
+    margin: 0.5rem 0;
+    list-style-type: none;
 }
 
-.py-3{
-    padding: 3rem 0;
+.list li {
+    /* margin: 0.5rem 0; */
+    padding: 0.5rem 0;
+    border-bottom:1px #444 dotted;    
 }
+
 /* Navbar  */
 #navbar {
     display: flex;
@@ -157,4 +172,23 @@ p {
     background-color: #93cb52;
     padding: 1rem;
     border-radius: 50%;
+}
+
+/* Section: Who We Are */
+.who-info-items {
+    display: flex;
+    padding: 30px;
+}
+
+.who-info-items div {
+    flex: 1;
+    margin: 2rem;
+}
+
+.who-info-pic {
+    background: url('../images/people.jpg') no-repeat center center/cover;
+}
+
+.who-info-content {
+    line-height: 1.1;
 }
