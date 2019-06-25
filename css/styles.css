@@ -22,8 +22,25 @@ p {
 }
 
 /* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
 .text-primary {
     color: #93cb52;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
 }
 
 .l-heading {
@@ -53,6 +70,21 @@ p {
 .btn-dark {
     color: #fff;
     background-color: #333;
+}
+.bg-light {
+
+}
+
+.py-1{
+    padding: 1.5rem 0;
+}
+
+.py-2{
+    padding: 2rem 0;
+}
+
+.py-3{
+    padding: 3rem 0;
 }
 /* Navbar  */
 #navbar {
@@ -103,6 +135,26 @@ p {
     /* Overlay */
     position: absolute;
     top: 64.5px; 
+    /* left:0;
+    right:0; */
     background-color: rgba(0,0,0,0.6);
-    
+}
+
+/* Section : What We Do */
+.items {
+    display: flex;
+    padding: 1rem;
+}
+
+.item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.item i {
+    background-color: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
 }
