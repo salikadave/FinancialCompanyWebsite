@@ -161,19 +161,19 @@ p {
 }
 
 /* Section : What We Do */
-.items {
+#what .items {
     display: flex;
     padding: 1rem;
 }
 
-.item{
+#what .items .item{
     flex: 1;
     text-align: center;
     padding: 1rem;
 }
 
 
-.item i {
+#what .items .item i {
     background-color: #93cb52;
     padding: 1rem;
     border-radius: 50%;
@@ -215,7 +215,8 @@ p {
     display: flex;
 }
 
-#contact div {
+#contact .contact-form,
+#contact .map, {
     flex:1;
 }
 
