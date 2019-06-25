@@ -75,7 +75,8 @@
                 <div class="who-info-pic"></div>
                 <div class="who-info-content">
                     <h2><span class="text-primary">Who </span>We Are</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam obcaecati non quaerat voluptatibus a velit pariatur perferendis quibusdam error.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam obcaecati non
+                        quaerat voluptatibus a velit pariatur perferendis quibusdam error.</p>
                     <h3>Our Team</h3>
                     <ul class="list">
                         <li>Mark Smith: CEO</li>
@@ -89,6 +90,69 @@
             </div>
         </div>
     </section>
+
+    <!-- Section: Clients -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Our</span> Clients
+            </h2>
+            <div class="items py-1">
+                <div><img src="./images/logos/logo1.png" alt="Client"></div>
+                <div><img src="./images/logos/logo2.png" alt="Client"></div>
+                <div><img src="./images/logos/logo3.png" alt="Client"></div>
+                <div><img src="./images/logos/logo4.png" alt="Client"></div>
+                <div><img src="./images/logos/logo5.png" alt="Client"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section : Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Name</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="text" name="message" id="message" placeholder="Enter your Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div id="map"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer bg-dark text-center">
+        <div class="container">
+            <p>Copyright &copy; 2019, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+        async defer></script>
+
+    <!-- Local JS File -->
+    <script src="./js/main.js"></script>
+
+
 </body>
 
 </html>

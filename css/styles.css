@@ -82,6 +82,11 @@ p {
     color: #fff;
 }
 
+.bg-primary {
+    background-color: #7ab436;
+    color: #fff;
+}
+
 .p-1 { padding: 1.5rem;}
 .p-2 { padding: 2rem;}
 .p-3 { padding: 3rem;}
@@ -175,20 +180,60 @@ p {
 }
 
 /* Section: Who We Are */
-.who-info-items {
+#who .who-info-items {
     display: flex;
     padding: 30px;
 }
 
-.who-info-items div {
+#who .who-info-items div {
     flex: 1;
     margin: 2rem;
 }
 
-.who-info-pic {
+#who .who-info-items .who-info-pic {
     background: url('../images/people.jpg') no-repeat center center/cover;
 }
 
-.who-info-content {
+#who .who-info-items .who-info-content {
     line-height: 1.1;
+}
+
+/* Section: Clients */
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* Section: Contacts */
+#contact {
+    display: flex;
+}
+
+#contact div {
+    flex:1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+    display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
 }
