@@ -1,0 +1,60 @@
+/* #what .items {
+    display: block;
+    padding: 1rem;
+} */
+
+#who .who-info-items{
+    display: block;
+}
+
+#who .who-info-items .who-info-pic{
+    display: block;
+    height: 100px;
+}
+
+@media screen and (max-width:500px){
+    .m-heading {
+        font-size: 1.5rem;
+    }
+    .l-heading{
+        font-size: 3rem;
+    }
+    
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #navbar ul {
+        margin-top: 1rem;
+    }
+    #what .items {
+        display: block;
+        padding: 1rem;
+    }
+    #who .who-info-items{
+        display: block;
+    }
+
+    #who .who-info-items div{
+        padding: 0.3rem;
+    }
+
+    #who .who-info-items .who-info-pic{
+        display: block;
+        height: 100px;
+    }
+    #clients .items img{
+        width: 80%;
+    }
+    #clients .items div:last-child{
+        display: none;
+    }
+    #contact {
+        display: block;
+    }
+    #contact #map {
+        border-top: 4px solid #333;
+        height: 200px;
+    }
+}

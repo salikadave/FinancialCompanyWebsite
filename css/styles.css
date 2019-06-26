@@ -138,6 +138,7 @@ p {
 
 /* Showcase */
 #showcase {
+    position: relative;
     background: url('../images/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
@@ -154,7 +155,7 @@ p {
     padding: 2rem;
     /* Overlay */
     position: absolute;
-    top: 64.5px; 
+    top: 0; 
     /* left:0;
     right:0; */
     background-color: rgba(0,0,0,0.6);
@@ -177,6 +178,7 @@ p {
     background-color: #93cb52;
     padding: 1rem;
     border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 /* Section: Who We Are */
@@ -187,7 +189,7 @@ p {
 
 #who .who-info-items div {
     flex: 1;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 #who .who-info-items .who-info-pic {
@@ -216,8 +218,9 @@ p {
 }
 
 #contact .contact-form,
-#contact .map, {
+#contact #map {
     flex:1;
+    flex-basis: 50%;
 }
 
 #contact .contact-form .form-group {
@@ -238,3 +241,5 @@ p {
 .main-footer {
     text-align: center;
 }
+
+
