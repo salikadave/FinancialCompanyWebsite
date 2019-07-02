@@ -30,7 +30,8 @@ p {
 }
 
 .text-primary {
-    color: #93cb52;
+    /* color: #93cb52; */
+    color: #ff8260;
 }
 
 .text-center {
@@ -57,33 +58,37 @@ p {
 .btn {
     display: inline-block;
     color: #fff;
-    background-color: #93cb52;
+    background-color: #ff8260;
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: #7ab436;
+    background-color: #cc6240;
 }
 
 .btn-dark {
     color: #fff;
-    background-color: #333;
+    background-color: #33313b;
+}
+
+.btn-dark:hover{
+    background-color:#444;
 }
 
 .bg-light {
     background-color: #f4f4f4;
-    color: #333;
+    color: #33313b;
 }
 
 .bg-dark {
-    background-color: #333;
+    background-color: #33313b;
     color: #fff;
 }
 
 .bg-primary {
-    background-color: #7ab436;
+    background-color: #cc6240;
     color: #fff;
 }
 
@@ -112,8 +117,10 @@ p {
     justify-content: space-between;
     position:sticky;
     top: 0;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: #33313b;
     color: #fff;
+    /* color: #ff4057; */
     z-index: 1;
     /* opacity: 0.9; */
     padding: 1rem;
@@ -132,7 +139,8 @@ p {
 }
 
 #navbar ul li a:hover {
-    background-color: #93cb52;
+    /* background-color: #93cb52; */
+    background-color: #ff8260;
     border-radius: 5px;
 }
 
@@ -175,7 +183,7 @@ p {
 
 
 #what .items .item i {
-    background-color: #93cb52;
+    background-color: #ff8260;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
