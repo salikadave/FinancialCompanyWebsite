@@ -127,6 +127,10 @@ p {
     padding: 1rem;
 }
 
+#navbar .logo a i{
+    color: #ff8260;
+}
+
 #navbar ul {
     display: flex;
     align-items: center;
