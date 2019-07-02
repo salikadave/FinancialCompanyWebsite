@@ -12,6 +12,10 @@
     height: 100px;
 }
 
+#arrow-up {
+    right: 22px;
+}
+
 @media screen and (max-width:500px){
     .m-heading {
         font-size: 1.5rem;

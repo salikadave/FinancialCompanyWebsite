@@ -45,7 +45,7 @@ $('#navbar a, .btn').on('click', function(e){
     }
 });
 
-// For Arrow to appear
+// For the Arrow to appear
 window.addEventListener('scroll', function(){
   if(this.scrollY > 200){
     document.querySelector('#arrow-up').style.visibility = 'visible';
@@ -54,8 +54,10 @@ window.addEventListener('scroll', function(){
 
 
 // Function after clicking arrow
-$('#arrow-up').on('click', function () {
+$('#arrow-up').on('click', arrowUpClick);
+
+function arrowUpClick() {
   $('html, body').animate({
     scrollTop: $('#home').offset().top
   }, 800);
-});
+}
