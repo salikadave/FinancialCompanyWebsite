@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"
         integrity="sha256-39jKbsb/ty7s7+4WzbtELS4vq9udJ+MDjGTD5mtxHZ0=" crossorigin="anonymous" />
 
+        <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
     <title>EdgeLedger | Financial Accounting & Investment</title>
 </head>
 
@@ -133,7 +134,7 @@
                 <input type="submit" value="Send" class="btn btn-dark">
             </form>
         </div>
-        <div id="map"></div>
+        <div id="map" class="map"></div>
     </section>
 
     <!-- Footer -->
@@ -143,14 +144,22 @@
         </div>
     </footer>
 
+
+    
     <!-- JQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+    <!-- Open Layers API for map -->
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
+
     <!-- Google Maps API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"async defer></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"async defer></script> -->
 
     <!-- Local JS File -->
     <script src="./js/main.js"></script>
+
+
 
 
 </body>

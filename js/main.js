@@ -1,14 +1,26 @@
-var map;
-function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: 19.073700, lng: 72.879246 },
-        zoom: 14,
-    });
-    const marker = new google.maps.Marker({
-        position: { lat: 19.073700, lng: 72.879246 },
-        map: map
-    });
-}
+var map = new ol.Map({
+    target: 'map',
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.OSM()
+      })
+    ],
+    view: new ol.View({
+      center: ol.proj.fromLonLat([72.879246, 19.073700]),
+      zoom: 12
+    })
+  });
+// var map;
+// function initMap() {
+//     map = new google.maps.Map(document.getElementById('map'), {
+//         center: { lat: 19.073700, lng: 72.879246 },
+//         zoom: 14,
+//     });
+//     const marker = new google.maps.Marker({
+//         position: { lat: 19.073700, lng: 72.879246 },
+//         map: map
+//     });
+// }
 
 //For Sticky navbar
 window.addEventListener('scroll', function () {
