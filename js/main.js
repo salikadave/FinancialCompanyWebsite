@@ -44,3 +44,18 @@ $('#navbar a, .btn').on('click', function(e){
         }, 800);
     }
 });
+
+// For Arrow to appear
+window.addEventListener('scroll', function(){
+  if(this.scrollY > 200){
+    document.querySelector('#arrow-up').style.visibility = 'visible';
+  }
+});
+
+
+// Function after clicking arrow
+$('#arrow-up').on('click', function () {
+  $('html, body').animate({
+    scrollTop: $('#home').offset().top
+  }, 800);
+});
