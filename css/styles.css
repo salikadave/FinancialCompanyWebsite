@@ -11,6 +11,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
+    letter-spacing: 0.09em;
 }
 
 a {
@@ -147,7 +148,7 @@ p {
 /* Showcase */
 #showcase {
     position: relative;
-    background: url('../images/showcase-1.jpg') no-repeat center center/cover;
+    background: url('../images/showcase-compressed.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
 }
