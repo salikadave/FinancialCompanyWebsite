@@ -61,3 +61,10 @@ function arrowUpClick() {
     scrollTop: $('#home').offset().top
   }, 800);
 }
+
+
+// Modal after submitting form
+
+document.querySelector('#contactSubmit').addEventListener('click', function() {
+  alert('Form submitted successfully. We shall get back to you soon.')
+});
