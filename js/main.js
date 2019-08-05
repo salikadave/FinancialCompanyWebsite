@@ -62,14 +62,9 @@ function arrowUpClick() {
   }, 800);
 }
 
-// Validation
-function validate(){
-  var name = document.forms['contact-form']['name'].value;
-  console.log(name)
-  return false;
-}
 
-// Modal after submitting form
+
+// Alert after submitting form
 
 document.querySelector('#contactSubmit').addEventListener('submit', function() {
   alert('Form submitted successfully. We shall get back to you soon.')
