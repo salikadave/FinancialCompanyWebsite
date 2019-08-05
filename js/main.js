@@ -66,6 +66,7 @@ function arrowUpClick() {
 
 // Alert after submitting form
 
-document.querySelector('#contactSubmit').addEventListener('submit', function() {
+document.querySelector('#contact-details').addEventListener('submit', function(e) {
   alert('Form submitted successfully. We shall get back to you soon.')
+  e.preventDefault()
 });
