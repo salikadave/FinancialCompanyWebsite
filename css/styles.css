@@ -271,6 +271,10 @@ p {
     padding: 0.5rem;
 }
 
+#contactSubmit{
+    margin-left: 0.75rem;
+}
+
 /* Footer */
 .main-footer {
     text-align: center;

@@ -34,7 +34,7 @@ window.addEventListener('scroll', function () {
 
 // Code for Smooth scrolling
 
-$('#navbar a, .btn').on('click', function(e){
+$('.smooth').on('click', function(e){
     if(this.hash !== ''){
         e.preventDefault();
         const hash = this.hash;
@@ -62,9 +62,15 @@ function arrowUpClick() {
   }, 800);
 }
 
+// Validation
+function validate(){
+  var name = document.forms['contact-form']['name'].value;
+  console.log(name)
+  return false;
+}
 
 // Modal after submitting form
 
-document.querySelector('#contactSubmit').addEventListener('click', function() {
+document.querySelector('#contactSubmit').addEventListener('submit', function() {
   alert('Form submitted successfully. We shall get back to you soon.')
 });
