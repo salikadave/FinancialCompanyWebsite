@@ -10,6 +10,4 @@ This template could also be used of the **Google Maps JavaScript API** for which
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"async defer></script>
 ```
 
-View this template at : www.edgeledger.tk
-
 Deployed using : **Netlify**
